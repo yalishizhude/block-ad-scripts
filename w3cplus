@@ -1,0 +1,25 @@
+// ==UserScript==
+// @name         w3cplus
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://www.w3cplus.com/*
+// @grant        GM_addStyle
+// @run-at       document-start
+// ==/UserScript==
+
+(function() {
+  'use strict';
+  GM_addStyle(`
+    #branding,
+    #get-info,
+    .shang-wrap,
+    .region.region-featured,
+    .ct-ad-article,
+    .region.region-sidebar-second{
+      display:none !important;
+    }
+    .main-wrap {
+    margin-right: 0;}
+  `)
+})();

@@ -1,0 +1,35 @@
+// ==UserScript==
+// @name         tieba
+// @version      0.1
+// @icon          https://www.baidu.com/favicon.ico
+// @description  try to take over the world!
+// @author       You
+// @include      http*://tieba.baidu.com/*
+// @grant GM_addStyle
+// @run-at document-start
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    GM_addStyle(`
+    .page-container .r-left-sec {
+      width: auto;
+    }
+    .n_right {
+      width: auto;
+    }
+    .top-sec,
+    .forum_recommend,
+    .r-top-sec,
+    .spage_liveshow_slide,
+    .home-place-item,
+    #right_wrap,#spage_game_tab_wrapper,
+    .aggregate_entrance_wrap,
+    .ufw-gap,
+    #f-d-w,
+    [ad-dom-img],
+    ul#thread_list>li:not(.j_thread_list) {
+      display:none!important;
+    }
+    `)
+})();
