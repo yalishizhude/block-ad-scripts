@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         CSDN去广告
-// @version      0
+// @version      1
 // @description  屏蔽与博客文章无关内容
 // @author       亚里士朱德
 // @match        https://blog.csdn.net/*
-// @updateURL    https://raw.githubusercontent.com/yalishizhude/block-ad-scripts/master/csdn.meta.js
-// @downloadURL  https://raw.githubusercontent.com/yalishizhude/block-ad-scripts/master/csdn.user.js
+// @updateURL    https://raw.githubusercontent.com/yalishizhude/block-ad-scripts/master/csdn.js
+// @downloadURL  https://raw.githubusercontent.com/yalishizhude/block-ad-scripts/master/csdn.js
 // @supportURL   https://github.com/yalishizhude/block-ad-scripts/issues
 // @grant        GM_addStyle
 // ==/UserScript==

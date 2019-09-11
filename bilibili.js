@@ -5,8 +5,8 @@
 // @author       https://yalishizhude.com/
 // @include      https://www.bilibili.com/video/*
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/yalishizhude/block-ad-scripts/master/bilibili.meta.js
-// @downloadURL  https://raw.githubusercontent.com/yalishizhude/block-ad-scripts/master/bilibili.user.js
+// @updateURL    https://raw.githubusercontent.com/yalishizhude/block-ad-scripts/master/bilibili.js
+// @downloadURL  https://raw.githubusercontent.com/yalishizhude/block-ad-scripts/master/bilibili.js
 // @supportURL   https://github.com/yalishizhude/block-ad-scripts/issues
 // ==/UserScript==
 
