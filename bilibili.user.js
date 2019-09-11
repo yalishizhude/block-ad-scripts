@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         B站自动关闭弹幕
-// @version      0.2
+// @version      1
 // @description  默认关闭弹幕
 // @author       https://yalishizhude.com/
 // @include      https://www.bilibili.com/video/*
 // @grant        none
-// @updateURL    https://github.com/yalishizhude/bilibili.js
-// @downloadURL  https://github.com/yalishizhude/bilibili.js
+// @updateURL    https://raw.githubusercontent.com/yalishizhude/block-ad-scripts/master/bilibili.meta.js
+// @downloadURL  https://raw.githubusercontent.com/yalishizhude/block-ad-scripts/master/bilibili.user.js
 // @supportURL   https://github.com/yalishizhude/block-ad-scripts/issues
 // ==/UserScript==
 
