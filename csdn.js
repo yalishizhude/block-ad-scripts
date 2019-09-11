@@ -16,4 +16,9 @@
   .indexSuperise, .mediav_ad, .recommend-box {
     display:none;
   }`);
+  const clickMore = () => {
+    let dom = document.querySelector('.btn-readmore')
+    dom && dom.click()
+  }
+  setTimeout(clickMore, 1000)
 })();
