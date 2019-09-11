@@ -1,0 +1,23 @@
+// ==UserScript==
+// @name         zhihu
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @include      https://www.zhihu.com/*
+// @grant        GM_addStyle
+// @run-at       document-start
+// @webRequest [{"selector":"https://www.zhihu.com/home_bottom.html","action":"cancel"}]
+// @webRequest [{"selector":"https://www.zhihu.com/home_top.html","action":"cancel"}]
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    console.log(location.href)
+    document.title = ''
+    GM_addStyle(`
+        .Pc-card.Card,.Pc-word, .TopstoryItem--advertCard,.QuestionHeader-title:first-child,.Card.QuestionInvitation {
+            display:none;
+        }
+    `)
+})();
