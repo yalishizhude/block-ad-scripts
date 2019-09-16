@@ -1,10 +1,13 @@
 // ==UserScript==
-// @name         zhihu
+// @name         知乎去广告
 // @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
+// @version      1
+// @description  去掉知乎广告以及页面标题
+// @author       亚里士朱德
 // @include      https://www.zhihu.com/*
+// @updateURL    https://raw.githubusercontent.com/yalishizhude/block-ad-scripts/master/zhihu.js
+// @downloadURL  https://raw.githubusercontent.com/yalishizhude/block-ad-scripts/master/zhihu.js
+// @supportURL   https://github.com/yalishizhude/block-ad-scripts/issues
 // @grant        GM_addStyle
 // @run-at       document-start
 // @webRequest [{"selector":"https://www.zhihu.com/home_bottom.html","action":"cancel"}]
