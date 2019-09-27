@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         百度去广告
-// @version      1
+// @version      1.1
 // @description  去除搜索广告
 // @author       https://yalishizhude.com/
 // @include      https://*baidu.com/*
@@ -13,9 +13,10 @@
 
 (function() {
   GM_addStyle(`
-    [cmatchid] {
-      height: 0;
-      overflow: hidden;
+    [cmatchid]{
+        position: absolute;
+        z-index: -1;
+        top: -9999px;
     }
   `)
 }())
