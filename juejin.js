@@ -1,18 +1,16 @@
 // ==UserScript==
 // @name         掘金去广告
+// @namespace    http://tampermonkey.net/
 // @version      1
-// @description  消除页面广告
-// @author       亚里士朱德
+// @description  try to take over the world!
+// @author       You
 // @match        https://juejin.im/*
-// @updateURL    https://raw.githubusercontent.com/yalishizhude/block-ad-scripts/master/juejin.js
-// @downloadURL  https://raw.githubusercontent.com/yalishizhude/block-ad-scripts/master/juejin.js
-// @supportURL   https://github.com/yalishizhude/block-ad-scripts/issues
 // @grant        GM_addStyle
 // @run-at       document-start
 // ==/UserScript==
 
 (function() {
     'use strict';
-    GM_addStyle(`.ad-entry-list,.banner-block,.sticky-banner {display:none}`)
+    GM_addStyle(`.ad-entry-list,.banner-block,.sticky-banner,.activity-recommend {display:none}`)
     // Your code here...
 })();
