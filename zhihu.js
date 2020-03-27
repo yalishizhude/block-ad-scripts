@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         知乎去广告
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      1.3
 // @description  去掉知乎广告以及页面标题
 // @author       亚里士朱德
 // @include      https://*.zhihu.com/*
@@ -16,22 +16,6 @@
 
 (function() {
   'use strict';
-  console.log(location.href)
-  setTimeout(() => document.title = '', 2000);
-  var label = document.createElement('label')
-  label.style = 'position:fixed;right:10px;top:10px;background-color:#5292fe;font-size:20px;z-index:999;user-select:none;'
-  label.id = 'rp'
-  label.textContent = '去图'
-  var ipt = document.createElement('input')
-  ipt.type = 'checkbox'
-  var style = document.createElement('style')
-  style.id = 'removePic'
-  document.head.appendChild(style)
-  ipt.addEventListener('change', e => {
-      style.innerHTML = e.target.checked ? 'iframe,img{visibility:hidden!important;}' : ''
-  })
-  label.append(ipt)
-  document.body.append(label)
   GM_addStyle(`
       .Pc-card.Card,.Pc-word, .TopstoryItem--advertCard,.QuestionHeader-title:first-child,.Card.QuestionInvitation {
         display:none;
